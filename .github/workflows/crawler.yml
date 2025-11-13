@@ -2,8 +2,9 @@ name: Hot News Crawler
 
 on:
   schedule:
-    # 我们使用的是 github 官方提供的资源来进行的推送，而每个账号的资源是限额的，为了不被官方判定为滥用而面临封号的风险，不建议比半小时更低
-    - cron: "0 * * * *" # 每小时整点运行一次(实际有偏差) 或者 "*/30 * * * *" (每半小时执行一次) 或者 "*/30 0-14 * * *"(每天早上 8 点到晚上 10 点期间，每半小时运行一次)
+    # 修改为每天00:00执行一次，提供日报汇总
+    - cron: "0 0 * * *" # 每天UTC时间00:00执行（北京时间08:00）
+    # 原本配置：每小时执行过于频繁，改为日报模式
   push:
     paths:
       - 'config/frequency_words.txt'
@@ -72,4 +73,4 @@ jobs:
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'actions@github.com'
           git add -A
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto update by GitHub Actions at $(TZ=Asia/Shanghai date)" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Daily update by GitHub Actions at $(TZ=Asia/Shanghai date +'%Y-%m-%d %H:%M:%S')" && git push)

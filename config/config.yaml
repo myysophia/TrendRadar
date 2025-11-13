@@ -26,7 +26,7 @@ crawler:
 # 推送模式选择
 report:
   mode: "daily" # 可选: "daily"|"incremental"|"current"
-  rank_threshold: 5 # 排名高亮阈值
+  rank_threshold: 15 # 排名高亮阈值 - 提高阈值以捕获更多行业新闻
 
 notification:
   enable_notification: true # 是否启用通知功能，如果 false，则不发送手机通知
@@ -100,6 +100,8 @@ platforms:
     name: "知乎"
 
   # === LED行业专业平台 ===
+  # 注意：以下为专业行业平台，需要通过RSS或特殊API获取数据
+  # 当前系统主要支持通用新闻平台，专业平台数据可能有限
   - id: "ledinside"
     name: "LED在线"
   - id: "hangjianet"
@@ -118,6 +120,8 @@ platforms:
     name: "EET电子工程专辑"
 
   # === 储能EMS行业专业平台 ===
+  # 注意：以下为专业行业平台，需要通过RSS或特殊API获取数据
+  # 当前系统主要支持通用新闻平台，专业平台数据可能有限
   - id: "energy-storage-china"
     name: "储能中国网"
   - id: "espla"

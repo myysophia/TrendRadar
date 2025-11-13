@@ -25,21 +25,31 @@ sora
 
 # === LED行业竞品监控 ===
 
-# 核心竞争对手
+# 核心竞争对手 - 利亚德系
 利亚德
 Leyard
 300296
+
+# 核心竞争对手 - 洲明系
 洲明科技
 Unilumin
 300232
+
+# 核心竞争对手 - 艾比森系
 艾比森
 Absen
 300389
+
+# 核心竞争对手 - 诺瓦系
 诺瓦星云
 NovaStar
 688589
+
+# 核心竞争对手 - 新兴显示系
 辰显光电
 CECID
+
+# 国际竞争对手
 Daktronics
 三星显示
 Samsung Display
@@ -151,26 +161,32 @@ HDR技术
 
 # === 储能EMS能源管理系统监控 ===
 
-# 核心EMS公司 - 中国
+# 核心EMS公司 - 宁德时代系
 宁德时代
 CATL
 300750
+
+# 核心EMS公司 - 比亚迪系
 比亚迪储能
 002594
+
+# 核心EMS公司 - 亿纬锂能系
 亿纬锂能
 EVE Energy
 300014
+
+# 核心EMS公司 - 电力系统系
 长园集团
 CYG ET
 600525
-德联软件
-Delian Software
 国电南瑞
 NARI
 许继电气
 Xuji Electric
 四方股份
 Sifang Co.
+
+# 核心EMS公司 - 储能系统集成系
 科华数据
 Kehua Data
 002335

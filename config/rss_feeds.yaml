@@ -1,0 +1,125 @@
+# RSS feeds 配置 - 用于补充专业行业内容
+# 这些RSS源可以直接获取专业内容，绕过API限制
+
+# LED显示行业RSS源
+led_industry:
+  - name: "LED在线新闻"
+    url: "https://www.ledinside.com/news/rss.xml"
+    category: "led_news"
+    language: "zh"
+    enabled: true
+
+  - name: "行家说Display"
+    url: "https://www.hangjianet.com/rss/display.xml"
+    category: "led_news"
+    language: "zh"
+    enabled: true
+
+  - name: "高工LED新闻"
+    url: "https://www.gg-led.com/news/rss.xml"
+    category: "led_news"
+    language: "zh"
+    enabled: true
+
+  - name: "数字音视工程网"
+    url: "https://www.av-eng.com/rss/news.xml"
+    category: "led_application"
+    language: "zh"
+    enabled: true
+
+# 储能EMS行业RSS源
+energy_storage:
+  - name: "储能中国网"
+    url: "https://www.energy-storage-china.com/news/rss.xml"
+    category: "storage_news"
+    language: "zh"
+    enabled: true
+
+  - name: "OFweek储能网"
+    url: "https://storage.ofweek.com/rss/news.xml"
+    category: "storage_news"
+    language: "zh"
+    enabled: true
+
+  - name: "高工储能"
+    url: "https://www.gg-energy-storage.com/rss/news.xml"
+    category: "storage_news"
+    language: "zh"
+    enabled: true
+
+  - name: "中关村储能产业联盟"
+    url: "https://www.cnesa.org/rss/news.xml"
+    category: "storage_policy"
+    language: "zh"
+    enabled: true
+
+# 国际储能RSS源
+international_storage:
+  - name: "PV Magazine储能"
+    url: "https://www.pv-magazine.com/category/storage/feed/"
+    category: "storage_international"
+    language: "en"
+    enabled: true
+
+  - name: "Energy Storage News"
+    url: "https://www.energy-storage.news/feed/"
+    category: "storage_international"
+    language: "en"
+    enabled: true
+
+  - name: "Mini/Micro LED News"
+    url: "https://www.minimicroled.com/rss/news.xml"
+    category: "led_technology"
+    language: "en"
+    enabled: true
+
+# 公司官方RSS源（投资者关系）
+company_official:
+  - name: "CATL投资者关系"
+    url: "https://www.catl.com/en/investor/rss.xml"
+    category: "company_ir"
+    language: "en"
+    enabled: true
+
+  - name: "Tesla投资者新闻"
+    url: "https://ir.tesla.com/rss/news.xml"
+    category: "company_ir"
+    language: "en"
+    enabled: true
+
+  - name: "BYD公司新闻"
+    url: "https://www.byd.com/en/news/rss.xml"
+    category: "company_ir"
+    language: "en"
+    enabled: true
+
+# 展会和会议RSS
+exhibitions:
+  - name: "中国国际储能展"
+    url: "https://www.energy-storage-expo.com/rss/news.xml"
+    category: "exhibition"
+    language: "zh"
+    enabled: true
+
+  - name: "ISLE国际显示展"
+    url: "https://www.isle-expo.com.cn/rss/news.xml"
+    category: "exhibition"
+    language: "zh"
+    enabled: true
+
+# RSS抓取配置
+settings:
+  fetch_interval: 3600  # 抓取间隔（秒）
+  timeout: 30  # 超时时间
+  max_retries: 3  # 最大重试次数
+  user_agent: "TrendRadar/1.0"
+
+  # 内容过滤
+  min_content_length: 100  # 最小内容长度
+  max_age_hours: 48  # 最大文章年龄（小时）
+
+  # 关键词匹配
+  case_sensitive: false
+  match_whole_words: true
+  fuzzy_matching: true
+  fuzzy_threshold: 0.8
