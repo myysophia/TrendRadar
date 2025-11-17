@@ -1,567 +1,71 @@
-字节
-bytedance
-张一鸣
-
-特斯拉
-马斯克
-
-微软
-Microsoft
-
-英伟达
-NVIDIA
-黄仁勋
-
-AMD
-
-谷歌
-google
-gemini
-deepmind
-
-chatgpt
-openai
-sora
-
-# === LED行业竞品监控 ===
-
-# 核心竞争对手 - 利亚德系
-利亚德
-Leyard
-300296
-
-# 核心竞争对手 - 洲明系
-洲明科技
-Unilumin
-300232
-
-# 核心竞争对手 - 艾比森系
-艾比森
-Absen
-300389
-
-# 核心竞争对手 - 诺瓦系
-诺瓦星云
-NovaStar
-688589
-
-# 核心竞争对手 - 新兴显示系
-辰显光电
-CECID
-
-# 国际竞争对手
-Daktronics
-三星显示
-Samsung Display
-索尼显示
-Sony Display
-LG显示
-LG Display
-Barco
-Christie
-Panasonic
-
-# 产品技术关键词
-LED显示屏
+# === LED显示技术类 ===
 Micro LED
 Mini LED
 COB封装
 MIP封装
-视频拼接
-视频处理器
-发送卡
-接收卡
-控制卡
-显示控制器
-模组
-LED驱动
-缓冲区
-信号同步
-拼屏
-分辨率
+LED驱动芯片
+LED控制器
+LED显示模组
+LED显示屏
 LED控制协议
-显示墙
-广告屏
-舞台屏
-室内显示
-室外显示
-HDR显示
-4K显示
-8K显示
-HDR10
-Dolby Vision
+LED显示控制行业
 
-# 应用场景
-XR虚拟拍摄
-LED影院屏
-LED会议一体机
-LED教育屏
-LED医疗显示
-LED车载显示
-LED透明屏
-LED柔性屏
-LED异形屏
-LED地砖屏
-LED天幕屏
-LED租赁屏
-LED固装屏
-LED小间距
-LED微间距
-
-# 技术趋势
-倒装芯片
-共阴技术
-共阳技术
-节能技术
-HDR技术
-低亮高灰
-高刷新率
-高对比度
-广色域
-色彩还原
-亮度调节
-灰度等级
-扫描方式
-驱动IC
-控制系统
-校正技术
-逐点校正
-色度校正
-亮度校正
-
-# 产业链相关
-晶台光电
-国星光电
-东山精密
-三安光电
-华灿光电
-聚飞光电
-兆驰股份
-木林森
-鸿利智汇
-瑞丰光电
-艾比森光电
+# === LED显示厂商类 ===
+利亚德
 洲明科技
-利亚德光电
+艾比森
 联建光电
 雷曼光电
 奥拓电子
-易事达
-赛德光电
-迈锐光电
-光祥科技
-雷凌显示
-德彩光电
-视爵光旭
-科伦特
-蓝普科技
-思科瑞光电
-晶台股份
-晶台实业
+诺瓦星云
+卡莱特
+灵星雨
+京东方
 
-# === 储能EMS能源管理系统监控 ===
-
-# 核心EMS公司 - 宁德时代系
-宁德时代
-CATL
-300750
-
-# 核心EMS公司 - 比亚迪系
-比亚迪储能
-002594
-
-# 核心EMS公司 - 亿纬锂能系
-亿纬锂能
-EVE Energy
-300014
-
-# 核心EMS公司 - 电力系统系
-长园集团
-CYG ET
-600525
-国电南瑞
-NARI
-许继电气
-Xuji Electric
-四方股份
-Sifang Co.
-
-# 核心EMS公司 - 储能系统集成系
-科华数据
-Kehua Data
-002335
-阳光电源
-Sungrow
-300274
-上能电气
-Sineng Electric
-300827
-盛弘股份
-Sinexcel
-300693
-禾望电气
-Hopewind
-603063
-新风光
-Xin Fengguang
-688663
-智光电气
-Zhiguang Electric
-002169
-金盘科技
-Jinpan Technology
-688676
-
-# 核心EMS公司 - 国际
-Tesla
-TSLA
-Autobidder
-Siemens
-SIEGY
-Spectrum Power
-Schneider Electric
-SBGSF
-EcoStruxure
-Stem
-STEM
-PowerTrack
-Fluence Energy
-FLNC
-Mosaic EMS
-ABB
-ABBNY
-Ability EMS
-Ampowr
-Cosmos EMS
-Nuvation Energy
-UpScale EMS
-GE Vernova
-Honeywell
-Johnson Controls
-Rockwell Automation
-
-# EMS核心技术关键词
-EMS
-Energy Management System
-能源管理系统
-BMS
-Battery Management System
-电池管理系统
-PCS
-Power Conversion System
-储能变流器
-SCADA
-数据采集与监视控制系统
-SoC
-State of Charge
-荷电状态
-SoH
-State of Health
-健康状态
-SoP
-State of Power
-功率状态
-SoE
-State of Energy
-能量状态
-RUL
-Remaining Useful Life
-剩余使用寿命
-DoD
-Depth of Discharge
-放电深度
-RTE
-Round-Trip Efficiency
-往返效率
-VPP
-Virtual Power Plant
-虚拟电厂
-AGC
-Automatic Generation Control
-自动发电控制
-AVC
-Automatic Voltage Control
-自动电压控制
-MPC
-Model Predictive Control
-模型预测控制
-MILP
-Mixed-Integer Linear Programming
-混合整数线性规划
-
-# EMS通信协议
-IEC-61850
-DNP3
-Modbus-TCP
-IEEE-2030.5
-OpenADR
-CAN总线
-以太网通信
-无线通信
-5G通信
-物联网通信
-
-# EMS应用场景
-Peak shaving
-削峰填谷
-Energy arbitrage
-能量套利
-Frequency regulation
-频率调节
-Grid balancing
-电网平衡
-Microgrid
-微电网
-Black-start
-黑启动
-Islanding
-孤岛运行
-Time-of-use
-分时电价
-Demand response
-需求响应
-Solar self-consumption
-光伏自用
-EV charging
-电动汽车充电
-Backup power
-备用电源
-VPP aggregation
-虚拟电厂聚合
-Grid-forming
-构网型
-Grid-following
-跟网型
-
-# 储能与电网标准
-GB/T 36276
-GB/T 36548
-GB/T 36558
-NFPA 855
-IEEE 1547
-IEEE 2800
-UL 9540
-UL 9540A
-IEC 62619
-IEC 62933
-电池护照
-CE marking
-并网标准
-储能安全标准
-
-# EMS市场趋势
-AI EMS
-人工智能EMS
-Machine learning
-机器学习
-Deep learning
-深度学习
-Reinforcement learning
-强化学习
-Edge computing
-边缘计算
-Cloud computing
-云计算
-IoT integration
-物联网集成
-Digital twin
-数字孪生
-Predictive maintenance
-预测性维护
-Optimization algorithm
-优化算法
-Energy forecasting
-能源预测
-Load forecasting
-负荷预测
-Real-time optimization
-实时优化
-Multi-objective optimization
-多目标优化
-Distributed control
-分布式控制
-Hierarchical control
-分层控制
-
-# 储能系统集成
-储能系统集成
-储能系统解决方案
-储能项目EPC
-储能项目开发
-储能项目投资
-储能系统调试
-储能系统运维
-储能容量租赁
-储能共享模式
-储能云平台
-储能大数据
-储能物联网
-储能智能化
-储能数字化
-
-# 电力市场与政策
-电力现货市场
-电力辅助服务
-电力调频服务
-电力调峰服务
-容量补偿
-容量市场
-电力需求响应
-可再生能源消纳
-新能源配储
-强制配储
-储能补贴政策
-储能电价政策
-储能金融政策
-绿色金融
-碳中和
-碳达峰
-双碳目标
-新型电力系统
-
-# 电池技术发展
-LFP battery
-磷酸铁锂电池
-NCM battery
-三元锂电池
-Solid-state battery
-固态电池
-Sodium-ion battery
-钠离子电池
-Flow battery
-液流电池
-Compressed air
-压缩空气储能
-Flywheel
-飞轮储能
-Supercapacitor
-超级电容
-Hybrid storage
-混合储能
-Battery recycling
-电池回收
-Second-life battery
-梯次利用电池
-
-# 储能安全与消防
-储能安全
-电池热失控
-热管理
-消防系统
-气体检测
-温度监控
-电压监控
-电流监控
-绝缘监测
-接地保护
-过压保护
-过流保护
-短路保护
-孤岛保护
-防雷保护
-
-# 储能应用场景
-发电侧储能
-电网侧储能
-用户侧储能
-工商业储能
-户用储能
-集中式储能
-分布式储能
-移动式储能
-共享储能
-虚拟储能
-储能+光伏
-储能+风电
-储能+火电
-储能+核电
-储能+充电桩
-储能+数据中心
-储能+5G基站
-储能+微电网
-
-# 储能产业链上游
-锂矿
-锂盐
-碳酸锂
-氢氧化锂
-六氟磷酸锂
-锂电池材料
-正极材料
-负极材料
-电解液
-隔膜
-铜箔
-铝箔
-PVDF
-NMP
-导电剂
-粘结剂
-
-# 储能产业链中游
-电芯
-电池模组
-电池包
-电池簇
-储能变流器
-储能逆变器
-储能系统
-储能集装箱
-储能消防
-储能温控
-储能BMS
+# === 储能技术类 ===
 储能EMS
-储能PCS
-储能云平台
-
-# 储能产业链下游
-储能项目开发
-储能项目运营
-储能项目维护
-储能金融服务
-储能保险服务
-储能租赁服务
-储能咨询服务
-储能检测服务
-储能认证服务
-储能回收服务
-
-储能
-电池
-锂电池
-固态电池
-BMS
-PCS
-
-储能项目投资
-电价套利
-
+BMS电池管理
+PCS变流器
+储能系统集成
 储能商业模式
+电网储能
+工商业储能
+家庭储能
+光伏储能
+锂电池储能
+
+# === 储能厂商类 ===
 宁德时代
 比亚迪储能
+固德威
+远信储能
+阳光电源
+华为储能
+海博思创
+南瑞继保
+科华数据
+国轩高科
 
-DeepSeek
-梁文锋
+# === 新兴技术类 ===
+AI Agent
+虚拟拍摄
+XR虚拟制作
+数字孪生
+智能照明
+LED电影屏
+LED虚拟影棚
+8K超高清
+HDR显示
+裸眼3D
 
-华为
-鸿蒙
-HarmonyOS
-任正非
-
-比亚迪
-王传福
-
-大疆
-DJI
-
-宇树
-王兴兴
-
-智元
-灵犀
-稚晖君
-彭志辉
-
-京东
-刘强东
-
+# === 应用场景类 ===
+舞台租赁
+户外广告
+会议显示
+指挥调度
+商业显示
+教育显示
+医疗显示
+车载显示
+AR眼镜
+元宇宙显示
